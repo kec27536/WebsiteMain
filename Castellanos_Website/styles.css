@@ -1,0 +1,107 @@
+/**
+ * Custom CSS
+ *
+ * Add this to your Tailwind CSS file,
+ * or to a separate, custom CSS file.
+ *
+ * Update the background images to suit
+ * your project.
+ */
+
+.bg-cover-image {
+	background: url(images/Postcard.jpg) center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	border-bottom-width: 4px;
+	border-color:black;
+
+}
+
+
+
+.bg-header {
+  background: url(images/Space.jpg) center center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;	
+}
+
+.bg-quote {
+  background: url(images/Setup.jpg) center center no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.text-box {
+	background-color: rgba(255, 255, 255, .7);
+	color: #000;
+}
+
+
+?/*-------------------------------- Videos -------------------------------------*/
+
+.video-title {
+  background: #fff;
+}
+
+@media only screen and (min-width : 768px) {
+  .video-wrapper {
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    width: 100%;
+  }
+
+  .video-wrapper video {
+    height: 100%;
+    position: absolute;
+      top: 0;
+      left: 0;
+    width: 100%;
+
+  }
+
+  .video-title {
+    
+    position: absolute;
+      top: 70%;
+      left: 48%;
+    transform: translateX(0%);
+    z-index: 99;
+
+
+
+}
+
+
+  }
+
+  .video-title2 {
+    
+    position: absolute;
+      top: 57%;
+      left: 30%;
+    transform: translateX(0%);
+    z-index: 99;
+
+
+
+}
+
+  .video-title3 {
+    
+    position: absolute;
+      top: 55%;
+      left: 46%;
+    transform: translateX(0%);
+    z-index: 99;
+
+    
+
+
+
+}
+
+.black-white {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
